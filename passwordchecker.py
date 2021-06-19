@@ -9,7 +9,7 @@ passwords = {
     "thesty"        :   "c6b41b47e50cd90eefccc9f7ae0f99814b82615c5cee99133e1c95a5693cdecd",
     "thetower"      :   "95b40c5764a32607a96753cbddcb55b0256d724866906168b932f77864edb3c1",
     "thelibrary"    :   "75261701c075c0ab4e24ca1fb0b9f7d601cc6b3914092421eafc1808dcaf0347",
-    "thesecondact"  :   "84db3ef4fe208927de0352a0a9686962b2b93d1c30492d5d7fe2db7af6552ac5"
+    "thesecondlock"  :   "84db3ef4fe208927de0352a0a9686962b2b93d1c30492d5d7fe2db7af6552ac5"
 }
 
 def dictChecker(bin):
