@@ -9,7 +9,9 @@ passwords = {
     "thesty"        :   "c6b41b47e50cd90eefccc9f7ae0f99814b82615c5cee99133e1c95a5693cdecd",
     "thetower"      :   "95b40c5764a32607a96753cbddcb55b0256d724866906168b932f77864edb3c1",
     "thelibrary"    :   "75261701c075c0ab4e24ca1fb0b9f7d601cc6b3914092421eafc1808dcaf0347",
-    "thesecondlock"  :   "84db3ef4fe208927de0352a0a9686962b2b93d1c30492d5d7fe2db7af6552ac5"
+    "thesecondlock" :   "84db3ef4fe208927de0352a0a9686962b2b93d1c30492d5d7fe2db7af6552ac5",
+    "thejigsaw"     :   "f6a9dcb187642124f2081705482bead1919ff763b0badd2818ffc7ebabc3140b",
+    "thecoin"       :   "af032910b8937db444688464f83bdc7e93d2a37cd4ddb5253e59253098cd9187"
 }
 
 def dictChecker(bin):
@@ -43,14 +45,14 @@ def main():
     pastebin = ""
     while pastebin != "exit":
         password = ""
-        pastebin = input("Enter the pastebin you'd like to unlock. Type 'exit' to exit. ")
+        pastebin = input("Enter the pastebin you'd like to unlock. Type 'exit' to exit. \n")
         if pastebin == "exit":
             break
         elif dictChecker(pastebin):
             print("I don't recognize that pastebin name. Check your spelling maybe?")
         else:
             while password != "back":
-                password = input("Enter your password guess for "+pastebin+". Type 'back' to go back and select a different pastebin. ")
+                password = input("Enter your password guess for "+pastebin+". Type 'back' to go back and select a different pastebin. \n")
                 if password == "back":
                     break
                 else:
